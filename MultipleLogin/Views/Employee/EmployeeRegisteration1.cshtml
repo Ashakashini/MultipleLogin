@@ -1,0 +1,156 @@
+﻿@model MultipleLogin.DAL.EmployeeRegisterationModel
+@{
+    ViewData["Title"] = "Employee Registration";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; // Use your layout here
+}
+
+@* @{
+    List<int> completedSteps = new List<int>();
+
+    if (ViewBag.CompletedSteps != null)
+    {
+        try
+        {
+            completedSteps = (List<int>)ViewBag.CompletedSteps;
+        }
+        catch
+        {
+            // fallback to empty if casting fails
+            completedSteps = new List<int>();
+        }
+    }
+} *@
+
+@{
+    List<int> completedSteps = new List<int>();
+    if (ViewBag.CompletedSteps != null)
+    {
+        completedSteps = (List<int>)ViewBag.CompletedSteps;
+    }
+}
+
+<div class="button-container">
+    <div class="button-with-content">
+        <button class="circle-button @(completedSteps.Contains(1) ? "completed" : "filled")">
+            @if (completedSteps.Contains(1))
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                @:1
+            }
+        </button>
+        <div class="content-below text-black">Personal details</div>
+    </div>
+    <div class="dotted-line"></div>
+
+    <div class="button-with-content">
+        <button class="circle-button @(completedSteps.Contains(2) ? "completed" : "filled")">
+            @if (completedSteps.Contains(2))
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                @:2
+            }
+        </button>
+        <div class="content-below text-black">Educational details</div>
+    </div>
+    <div class="dotted-line"></div>
+
+    <div class="button-with-content">
+        <button class="circle-button @(completedSteps.Contains(3) ? "completed" : "filled")">
+            @if (completedSteps.Contains(3))
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                @:3
+            }
+        </button>
+        <div class="content-below text-black">Experience</div>
+    </div>
+    
+
+   
+</div>
+
+<div class="container mt-5 border rounded p-4 shadow">
+    <h2 class="mb-4 text-center">Employee Registration -1</h2>
+    <form asp-action="EmployeeRegisteration1" asp-controller="Employee" method="post">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+            <div class="form-floating mb-3">
+                <input asp-for="FirstName" class="form-control" id="FirstName" />
+                <label asp-for="FirstName">
+                    <i class="fa-solid fa-circle-user me-2"></i> First Name
+                </label>
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="LastName" class="form-control" id="LastName" />
+                    <label asp-for="LastName">
+                        <i class="fa-solid fa-circle-user me-2"></i> Last Name
+                    </label>
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Email" class="form-control" id="Email" />
+                    <label asp-for="Email">
+                        <i class="fa-solid fa-circle-user me-2"></i> Email
+                    </label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                
+                
+                
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="form-floating mb-3">
+                    <input asp-for="Address" class="form-control" id="Address" />
+                    <label asp-for="Address">
+                        <i class="fa-solid fa-circle-user me-2"></i> Address
+                    </label>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="PostalCode" class="form-control" id="PostalCode" />
+                    <label asp-for="PostalCode">
+                        <i class="fa-solid fa-circle-user me-2"></i> PostalCode
+                    </label>
+                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Country" class="form-control" id="Country" />
+                    <label asp-for="Country">
+                        <i class="fa-solid fa-circle-user me-2"></i> Country
+                    </label>
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Submit Button Row -->
+        <div class="row mt-3">
+            <div class="col-md-4">
+                
+                <a asp-action="EmployeeRegisteration2" asp-controller="Employee" class="btn btn-primary w-100">Register</a>
+                      @* <button type="submit" class="btn btn-primary w-100">Register</button> *@
+                
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+}

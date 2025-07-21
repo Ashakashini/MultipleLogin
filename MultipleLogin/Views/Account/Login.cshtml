@@ -1,0 +1,61 @@
+﻿@model MultipleLogin.DAL.Models.LoginModel
+@{
+    Layout = "";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MultipleLogin</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MultipleLogin.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<div class="container mt-5 col-8">
+    <div class="row justify-content-center align-items-center bg-transparent rounded shadow p-4">
+        <!-- Left Side: Image -->
+        <div class="col-md-6 text-center">
+            <img src="~/images/imagefresh.png" alt="Login Image" class="img-fluid" style="max-height: 350px;" />
+        </div>
+
+
+        <div class="col-md-6">
+            <form asp-controller="Account" asp-action="Login" method="post">
+                <fieldset>
+                    <legend class="text-black text-center mb-4">Login</legend>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Email" class="form-control" id="Email" />
+                        <label asp-for="Email">
+                            <i class="fa-solid fa-circle-user me-2"></i> Username
+                        </label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Password" type="password" class="form-control" id="Password" />
+                        <label asp-for="Password">
+                            <i class="fa-solid fa-key me-2"></i> Password
+                        </label>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-check mx-auto">
+
+                        <input asp-for="RememberMe" type="checkbox" id="ResRememberMe" />
+                        <label>RememberMe</label>
+                        <span class="text-danger"></span>
+                    </div>
+                    <br />
+                    <button type="submit" class="btn btn-outline-dark btn-success">Login</button>
+                    <br />
+                    <a style="text-decoration:none;color:green;" href="~/WebHome/FirstLogin" alt="">Forgot Password</a>
+                    <br />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+

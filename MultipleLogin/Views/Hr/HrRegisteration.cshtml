@@ -1,0 +1,93 @@
+﻿@model MultipleLogin.DAL.HrRegisterationModel
+@{
+    ViewData["Title"] = "Hr Registration";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; // Use your layout here
+}
+
+<div class="container mt-5 border rounded p-4 shadow">
+    <h2 class="mb-4 text-center">Hr Registration</h2>
+    <form asp-action="HrRegisteration" asp-controller="Hr" method="post">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="FirstName" class="form-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="LastName" class="form-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Phone" class="form-label">Phone Number</label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="DateofBirth" class="form-label">Date Of Birth</label>
+                    <input asp-for="DateofBirth" class="form-control" />
+                    <span asp-validation-for="DateofBirth" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Department" class="form-label">Department</label>
+                    <input asp-for="Department" class="form-control" />
+                    <span asp-validation-for="Department" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="Address" class="form-label">Address</label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="PostalCode" class="form-label">Postal Code</label>
+                    <input asp-for="PostalCode" class="form-control" />
+                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Country" class="form-label">Country</label>
+                    <input asp-for="Country" class="form-control" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="City" class="form-label">City</label>
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="state" class="form-label">State</label>
+                    <input asp-for="state" class="form-control" />
+                    <span asp-validation-for="state" class="text-danger"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Avathar" class="form-label">Avathar</label>
+                    <input asp-for="Avathar" class="form-control" />
+                    <span asp-validation-for="Avathar" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button Row -->
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary w-100">Register</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

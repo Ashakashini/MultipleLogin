@@ -1,0 +1,227 @@
+﻿@* @{
+    
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+} *@
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+@* <div class="container">
+    <h2 class="text-center mb-4">Leave Report</h2>
+
+    <div class="row mt-3">
+        <!-- Left Column: Applied, Pending, Rejected, Approved buttons in 2x2 grid -->
+        <div class="col-md-5 mb-4">
+            <h5>Leave Status</h5>
+            <div class="row row-cols-2 g-3  mt-4">
+                <div class="col">
+                    <button class="btn btn-primary w-100 py-4">Applied</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-secondary w-100 py-4">Pending</button>
+                </div>
+                <div class="col mt-5">
+                    <button class="btn btn-danger w-100 py-4">Rejected</button>
+                </div>
+                <div class="col mt-5">
+                    <button class="btn btn-success w-100 py-4">Approved</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Daily, Weekly, Monthly buttons on top and Chart below -->
+        <div class="col-md-7">
+            <h5>Time Period</h5>
+            <div class="mb-3">
+                <button class="btn btn-outline-primary me-2" onclick="showChart('daily')">Daily</button>
+                <button class="btn btn-outline-success me-2" onclick="showChart('weekly')">Weekly</button>
+                <button class="btn btn-outline-warning" onclick="showChart('monthly')">Monthly</button>
+            </div>
+            <canvas id="leaveChart" height="100"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('leaveChart').getContext('2d');
+
+    const chartData = {
+        daily: {
+            labels: ['Applied', 'Approved', 'Rejected', 'Pending'],
+            data: [5, 3, 1, 1]
+        },
+        weekly: {
+            labels: ['Applied', 'Approved', 'Rejected', 'Pending'],
+            data: [30, 22, 5, 3]
+        },
+        monthly: {
+            labels: ['Applied', 'Approved', 'Rejected', 'Pending'],
+            data: [120, 100, 15, 5]
+        }
+    };
+
+    let leaveChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: chartData.daily.labels,
+            datasets: [{
+                label: 'Daily Leave Stats',
+                data: chartData.daily.data,
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.6)',
+                    'rgba(75, 192, 192, 0.6)',
+                    'rgba(255, 99, 132, 0.6)',
+                    'rgba(255, 206, 86, 0.6)'
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: 'Leave Statistics'
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    function showChart(type) {
+        const selected = chartData[type];
+        leaveChart.data.datasets[0].data = selected.data;
+        leaveChart.data.datasets[0].label = `${type.charAt(0).toUpperCase() + type.slice(1)} Leave Stats`;
+        leaveChart.update();
+    }
+</script> *@
+
+
+
+
+
+<div class="container">
+    <h2 class="text-center mb-4">Leave Report</h2>
+
+    <div class="row align-items-start">
+        <!-- Left Column: Leave Status Buttons in 2x2 Grid -->
+        <div class="col-md-4">
+            <h5>Leave Status</h5>
+            <div class="row row-cols-2 g-3  mt-4">
+                <div class="col">
+                    <button class="btn btn-primary w-100 py-4">Applied</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-secondary w-100 py-4">Pending</button>
+                </div>
+                <div class="col mt-5">
+                    <button class="btn btn-danger w-100 py-4">Rejected</button>
+                </div>
+                <div class="col mt-5">
+                    <button class="btn btn-success w-100 py-4">Approved</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Time Period Buttons + Chart -->
+        <div class="col-md-8">
+            <h5>Time Period</h5>
+            <div class="mb-3">
+                <button class="btn btn-outline-primary me-2" onclick="setTimeRange('daily')">Daily</button>
+                <button class="btn btn-outline-success me-2" onclick="setTimeRange('weekly')">Weekly</button>
+                <button class="btn btn-outline-warning" onclick="setTimeRange('monthly')">Monthly</button>
+            </div>
+            <canvas id="leaveChart" height="100"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('leaveChart').getContext('2d');
+
+    // ✅ Full chart data
+    const chartData = {
+        daily: { Applied: 5, Approved: 3, Rejected: 1, Pending: 1 },
+        weekly: { Applied: 30, Approved: 22, Rejected: 5, Pending: 3 },
+        monthly: { Applied: 120, Approved: 100, Rejected: 15, Pending: 5 }
+    };
+
+    let currentTimeRange = 'daily';
+    let currentStatus = null;
+
+    const leaveChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: Object.keys(chartData.daily),
+            datasets: [{
+                label: 'Daily Leave Stats',
+                data: Object.values(chartData.daily),
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.6)',    // Applied
+                    'rgba(75, 192, 192, 0.6)',    // Approved
+                    'rgba(255, 99, 132, 0.6)',    // Rejected
+                    'rgba(255, 206, 86, 0.6)'     // Pending
+                ]
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: 'Leave Statistics'
+                }
+            },
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+
+    // ✅ Set time range & show full chart
+    function setTimeRange(range) {
+        currentTimeRange = range;
+        currentStatus = null;  // reset filter
+        updateChart();
+    }
+
+    // ✅ Filter by specific status
+    function filterByStatus(status) {
+        currentStatus = status;
+        updateChart();
+    }
+
+    // ✅ Update chart based on currentTimeRange & currentStatus
+    function updateChart() {
+        const data = chartData[currentTimeRange];
+
+        if (currentStatus) {
+            leaveChart.data.labels = [currentStatus];
+            leaveChart.data.datasets[0].data = [data[currentStatus]];
+        } else {
+            leaveChart.data.labels = Object.keys(data);
+            leaveChart.data.datasets[0].data = Object.values(data);
+        }
+
+        leaveChart.data.datasets[0].label = `${capitalize(currentTimeRange)} ${currentStatus ? currentStatus + ' ' : ''}Leave Stats`;
+        leaveChart.update();
+    }
+
+    // Capitalize helper
+    function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+</script>

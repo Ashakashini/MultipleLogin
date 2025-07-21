@@ -1,0 +1,162 @@
+﻿@model MultipleLogin.DAL.EmployeeRegisterationModel
+
+@{
+    ViewData["Title"] = "Employee Registration";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml"; // Use your layout here
+}
+
+@if (TempData["Step2Success"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["Step2Success"]
+    </div>
+}
+
+@{
+    List<int> completedSteps = new List<int>();
+
+    if (ViewBag.CompletedSteps != null)
+    {
+        try
+        {
+            completedSteps = (List<int>)ViewBag.CompletedSteps;
+        }
+        catch
+        {
+            completedSteps = new List<int>();
+        }
+    }
+}
+<div class="button-container">
+    <div class="button-with-content">
+        <button class="circle-button @(completedSteps.Contains(1) ? "completed" : "filled")">
+            @if (completedSteps.Contains(1))
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                @:1
+            }
+        </button>
+        <div class="content-below text-black">Personal details</div>
+    </div>
+    <div class="dotted-line"></div>
+
+    <div class="button-with-content">
+        <button class="circle-button @(completedSteps.Contains(2) ? "completed" : "filled")">
+            @if (completedSteps.Contains(2))
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                @:2
+            }
+        </button>
+        <div class="content-below text-black">Educational details</div>
+    </div>
+    <div class="dotted-line"></div>
+
+    <div class="button-with-content">
+        <button class="circle-button @(completedSteps.Contains(3) ? "completed" : "filled")">
+            @if (completedSteps.Contains(3))
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                @:3
+            }
+        </button>
+        <div class="content-below text-black">Experience</div>
+    </div>
+</div>
+
+<div class="container mt-5 border rounded p-4 shadow">
+    <h2 class="mb-4 text-center">Employee Registration - 3</h2>
+    <form asp-action="EmployeeRegisteration3" asp-controller="Employee" method="post">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <div class="form-floating mb-3">
+                    <input asp-for="Resume" class="form-control" id="Resume" />
+                    <label asp-for="Resume"><i class="fa-solid fa-circle-user me-2"></i> CV</label>
+                    <span asp-validation-for="Resume" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="EducationalCertificate" class="form-control" id="EducationalCertificate" />
+                    <label asp-for="EducationalCertificate"><i class="fa-solid fa-circle-user me-2"></i> Educational Certificates</label>
+                    <span asp-validation-for="EducationalCertificate" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Experience" class="form-control" id="Experience" />
+                    <label asp-for="Experience"><i class="fa-solid fa-circle-user me-2"></i> Experience</label>
+                    <span asp-validation-for="Experience" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="form-floating mb-3">
+                    <input asp-for="IDProof" class="form-control" id="IDProof" />
+                    <label asp-for="IDProof"><i class="fa-solid fa-circle-user me-2"></i> ID Proof</label>
+                    <span asp-validation-for="IDProof" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="YearofPassout" class="form-control" id="YearofPassout" />
+                    <label asp-for="YearofPassout"><i class="fa-solid fa-circle-user me-2"></i> Year of Passout</label>
+                    <span asp-validation-for="YearofPassout" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Category" class="form-control" id="Category" />
+                    <label asp-for="Category"><i class="fa-solid fa-circle-user me-2"></i> Category</label>
+                    <span asp-validation-for="Category" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button Row -->
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <a asp-controller="Employee" asp-action="EmployeeRegisteration1" class="btn btn-primary w-100">Register</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        @if (TempData["Step2Success"] != null)
+        {
+            var message = @Html.Raw($"'{TempData["Step2Success"].ToString().Replace("'", "\\'")}'");
+            <text>
+                    localStorage.setItem("step2SuccessMessage", @message);
+                    localStorage.setItem("step2SuccessTimestamp", Date.now());
+            </text>
+        }
+
+            function showStep2SuccessMessage() {
+                const message = localStorage.getItem("step2SuccessMessage");
+                const timestamp = parseInt(localStorage.getItem("step2SuccessTimestamp"));
+                const now = Date.now();
+
+                if (message && (now - timestamp) < 2 * 60 * 1000) {  // 2 minutes in ms
+                    alert(message);
+                    // Remove after showing to prevent repeated alerts
+                    localStorage.removeItem("step2SuccessMessage");
+                    localStorage.removeItem("step2SuccessTimestamp");
+                } else {
+                    localStorage.removeItem("step2SuccessMessage");
+                    localStorage.removeItem("step2SuccessTimestamp");
+                }
+            }
+
+        window.onload = showStep2SuccessMessage;
+    </script>
+
+}

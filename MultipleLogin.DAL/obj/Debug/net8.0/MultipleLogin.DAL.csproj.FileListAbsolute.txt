@@ -1,0 +1,15 @@
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\bin\Debug\net8.0\MultipleLogin.DAL.deps.json
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\bin\Debug\net8.0\MultipleLogin.DAL.runtimeconfig.json
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\bin\Debug\net8.0\MultipleLogin.DAL.dll
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\bin\Debug\net8.0\MultipleLogin.DAL.pdb
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.csproj.AssemblyReference.cache
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.AssemblyInfoInputs.cache
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.AssemblyInfo.cs
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.sourcelink.json
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.dll
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\refint\MultipleLogin.DAL.dll
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.pdb
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\MultipleLogin.DAL.genruntimeconfig.cache
+C:\Users\Asha\source\repos\MultipleLogin\MultipleLogin.DAL\obj\Debug\net8.0\ref\MultipleLogin.DAL.dll

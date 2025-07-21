@@ -4897,19 +4897,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Asha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\MultipleLogin\\MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
       "projectName": "MultipleLogin.DAL",
-      "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\MultipleLogin\\MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\MultipleLogin\\MultipleLogin.DAL\\obj\\",
+      "projectPath": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
+      "packagesPath": "C:\\Users\\Asha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Asha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4917,6 +4917,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4981,7 +4982,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

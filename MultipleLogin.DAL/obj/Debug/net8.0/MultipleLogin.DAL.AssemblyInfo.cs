@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultipleLogin.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32cf734cc29851c7cb30df1c7f5ed65805838868")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a59caf3b18f11f45b41ad996b64e4f143f2ad378")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultipleLogin.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultipleLogin.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

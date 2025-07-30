@@ -165,6 +165,95 @@ namespace MultipleLogin.Controllers
         }
 
 
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EmployeeRegisteration3(EmployeeRegisterationModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                // Ensure 'wwwroot/uploads' exists
+                string uploadFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+                if (!Directory.Exists(uploadFolder))
+                    Directory.CreateDirectory(uploadFolder);
+
+                
+                if (model.Avathar != null)
+                {
+                    var fileName = Path.GetFileName(model.Avathar.FileName);
+                    var filePath = Path.Combine(uploadFolder, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.Avathar.CopyToAsync(stream);
+                    }
+                    model.AvatarFileName = fileName;
+                }
+
+                
+                if (model.Resume != null)
+                {
+                    var fileName = Path.GetFileName(model.Resume.FileName);
+                    var filePath = Path.Combine(uploadFolder, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.Resume.CopyToAsync(stream);
+                    }
+                    model.ResumeFileName = fileName;
+                }
+
+                
+                if (model.EducationalCertificate != null)
+                {
+                    var fileName = Path.GetFileName(model.EducationalCertificate.FileName);
+                    var filePath = Path.Combine(uploadFolder, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.EducationalCertificate.CopyToAsync(stream);
+                    }
+                    model.EducationalCertificateFileName = fileName;
+                }
+
+                
+                if (model.IDProof != null)
+                {
+                    var fileName = Path.GetFileName(model.IDProof.FileName);
+                    var filePath = Path.Combine(uploadFolder, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.IDProof.CopyToAsync(stream);
+                    }
+                    model.IDProofFileName = fileName;
+                }
+
+                
+                try
+                {
+                    _context.Employees.Add(model);
+                    await _context.SaveChangesAsync();
+
+                    TempData["Success"] = "Registration complete!";
+                    return RedirectToAction("Index");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("DB Save Error: " + ex.Message);
+                    ModelState.AddModelError("", "An error occurred while saving. Please try again.");
+                }
+            }
+
+            
+            foreach (var key in ModelState.Keys)
+            {
+                foreach (var error in ModelState[key].Errors)
+                {
+                    Console.WriteLine($"Validation error on {key}: {error.ErrorMessage}");
+                }
+            }
+
+            return View(model);
+        }
+
+
         public IActionResult LeaveStats()
         {
             var stats = new

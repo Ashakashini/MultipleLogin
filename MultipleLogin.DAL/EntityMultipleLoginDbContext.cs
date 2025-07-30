@@ -22,7 +22,7 @@ namespace MultipleLogin.DAL
 
         public DbSet<LoginModel> Login { get; set; }
 
-        // ✅ Add this:
+        
         public DbSet<EmployeeRegisterationModel> Employees { get; set; }
         public DbSet<LeaveApplyModel> Leaves { get; set; }
     }

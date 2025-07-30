@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MultipleLogin.DAL;
 
@@ -11,9 +12,11 @@ using MultipleLogin.DAL;
 namespace MultipleLogin.DAL.Migrations
 {
     [DbContext(typeof(EntityMultipleLoginDbContext))]
-    partial class EntityMultipleLoginDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250729070955_employee1")]
+    partial class employee1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

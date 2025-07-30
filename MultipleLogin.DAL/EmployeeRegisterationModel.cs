@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,7 +29,7 @@ namespace MultipleLogin.DAL
 
         [Required]
         [DataType(DataType.PostalCode)]
-        public string PostalCode { get; set; }  
+        public string PostalCode { get; set; }
 
         [Required]
         public string Country { get; set; }
@@ -42,7 +43,7 @@ namespace MultipleLogin.DAL
 
         [Required]
         [Phone]
-        public string Phone { get; set; }   
+        public string Phone { get; set; }
 
         [Required]
         public string State { get; set; }
@@ -50,23 +51,32 @@ namespace MultipleLogin.DAL
         [Required]
         public string City { get; set; }
 
-        [Required]
+        [NotMapped]
+        
         public IFormFile Avathar { get; set; }  
 
-        [Required]
+        public string AvatarFileName { get; set; }
+
+        [NotMapped]
         public IFormFile Resume { get; set; }
 
-        [Required]
+        public string ResumeFileName { get; set; }
+
+        [NotMapped] 
         public IFormFile EducationalCertificate { get; set; }
+
+        public string EducationalCertificateFileName { get; set; }
 
         [Required]
         public string Experience { get; set; }
 
-        [Required]
+        [NotMapped] 
         public IFormFile IDProof { get; set; }
 
+        public string IDProofFileName { get; set; } 
+
         [Required]
-        public string YearofPassout { get; set; }  
+        public string YearofPassout { get; set; }
 
         [Required]
         public string Category { get; set; }

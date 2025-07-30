@@ -1,0 +1,201 @@
+﻿@model MultipleLogin.DAL.EmployeeRegisterationModel
+@{
+    ViewData["Title"] = "Employee Registration";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!-- Step Indicator -->
+<div class="button-container d-flex justify-content-center mb-4">
+    <div class="button-with-content text-center mx-3">
+        <button class="circle-button filled step-btn" data-step="0">
+            <span class="step-icon">1</span>
+        </button>
+        <div class="content-below text-black">Personal details</div>
+    </div>
+    <div class="dotted-line my-auto"></div>
+    <div class="button-with-content text-center mx-3">
+        <button class="circle-button filled step-btn" data-step="1">
+            <span class="step-icon">2</span>
+        </button>
+        <div class="content-below text-black">Educational details</div>
+    </div>
+    <div class="dotted-line my-auto"></div>
+    <div class="button-with-content text-center mx-3">
+        <button class="circle-button filled step-btn" data-step="2">
+            <span class="step-icon">3</span>
+        </button>
+        <div class="content-below text-black">Experience</div>
+    </div>
+</div>
+
+<!-- Form Start -->
+<div class="container border rounded p-4 shadow">
+    <form asp-action="EmployeeRegisterFinal" asp-controller="Employee" method="post" enctype="multipart/form-data" id="multiStepForm">
+
+        <!-- Step 1 -->
+        <div class="step-section" style="display: block;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="FirstName" class="form-control" />
+                        <label asp-for="FirstName">First Name</label>
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="LastName" class="form-control" />
+                        <label asp-for="LastName">Last Name</label>
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Email" class="form-control" />
+                        <label asp-for="Email">Email</label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Address" class="form-control" />
+                        <label asp-for="Address">Address</label>
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="PostalCode" class="form-control" />
+                        <label asp-for="PostalCode">Postal Code</label>
+                        <span asp-validation-for="PostalCode" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Country" class="form-control" />
+                        <label asp-for="Country">Country</label>
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-section" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="DateofBirth" class="form-control" />
+                        <label asp-for="DateofBirth">Date of Birth</label>
+                        <span asp-validation-for="DateofBirth" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Department" class="form-control" />
+                        <label asp-for="Department">Department</label>
+                        <span asp-validation-for="Department" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Phone" class="form-control" />
+                        <label asp-for="Phone">Phone</label>
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="City" class="form-control" />
+                        <label asp-for="City">City</label>
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="State" class="form-control" />
+                        <label asp-for="State">State</label>
+                        <span asp-validation-for="State" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Avathar" class="form-control" />
+                        <label asp-for="Avathar">Avatar</label>
+                        <span asp-validation-for="Avathar" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-section" style="display: none;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="Resume" class="form-control" />
+                        <label asp-for="Resume">Resume</label>
+                        <span asp-validation-for="Resume" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="EducationalCertificate" class="form-control" />
+                        <label asp-for="EducationalCertificate">Certificate</label>
+                        <span asp-validation-for="EducationalCertificate" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Experience" class="form-control" />
+                        <label asp-for="Experience">Experience</label>
+                        <span asp-validation-for="Experience" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3">
+                        <input asp-for="IDProof" class="form-control" />
+                        <label asp-for="IDProof">ID Proof</label>
+                        <span asp-validation-for="IDProof" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="YearofPassout" class="form-control" />
+                        <label asp-for="YearofPassout">Year of Passout</label>
+                        <span asp-validation-for="YearofPassout" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Category" class="form-control" />
+                        <label asp-for="Category">Category</label>
+                        <span asp-validation-for="Category" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="d-flex justify-content-between mt-4">
+            <button type="button" class="btn btn-secondary" id="prevBtn" style="display: none;">Previous</button>
+            <button type="button" class="btn btn-primary" id="nextBtn">Next</button>
+            <button type="submit" class="btn btn-success" id="submitBtn" style="display: none;">Submit</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        let currentStep = 0;
+        const steps = document.querySelectorAll(".step-section");
+        const stepIcons = document.querySelectorAll(".step-icon");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+        const submitBtn = document.getElementById("submitBtn");
+
+        function showStep(index) {
+            steps.forEach((step, i) => {
+                step.style.display = i === index ? "block" : "none";
+                stepIcons[i].innerHTML = i < index ? '<i class="fa fa-check"></i>' : (i + 1);
+            });
+
+            prevBtn.style.display = index === 0 ? "none" : "inline-block";
+            nextBtn.style.display = index === steps.length - 1 ? "none" : "inline-block";
+            submitBtn.style.display = index === steps.length - 1 ? "inline-block" : "none";
+        }
+
+        nextBtn.addEventListener("click", () => {
+            if (currentStep < steps.length - 1) {
+                currentStep++;
+                showStep(currentStep);
+            }
+        });
+
+        prevBtn.addEventListener("click", () => {
+            if (currentStep > 0) {
+                currentStep--;
+                showStep(currentStep);
+            }
+        });
+
+        showStep(currentStep);
+    </script>
+}
+

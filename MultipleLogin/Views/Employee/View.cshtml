@@ -1,0 +1,79 @@
+﻿@* @{
+    ViewData["Title"] = "Employee List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Employee List</h2>
+
+    <div class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                    <th>Avatar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var emp in Model)
+                {
+                    <tr>
+                        <td>@emp.Id</td>
+                        <td>@(emp.FirstName + " " + emp.LastName)</td>
+                        <td>@emp.Department</td>
+                        <td>@emp.Email</td>
+                        <td>
+                            <img src="~/@emp.Avathar" class="rounded-circle border shadow-sm" width="60" height="60" alt="Avatar" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div> *@
+
+@model List<MultipleLogin.DAL.EmployeeRegisterationModel>
+
+@{
+    ViewData["Title"] = "Employee List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<div class="container my-5">
+    <div class="glass-card">
+        <h2 class="text-center mb-4 fw-bold text-primary">🌟 Employee List</h2>
+
+        <div class="table-responsive">
+            <table class="table table-borderless align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th>Email</th>
+                        <th>Avatar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var emp in Model)
+                    {
+                        <tr class="fade-in">
+                            <td>@emp.Id</td>
+                            <td class="fw-semibold">@($"{emp.FirstName} {emp.LastName}")</td>
+                            <td>@emp.Department</td>
+                            <td>@emp.Email</td>
+                            <td>
+                                <img src="~/@emp.Avathar" alt="Avatar" class="avatar-img" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultipleLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c81c99c9b63c5386e9b4e7118d91683658558d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e547e4cde55adf71012b12c642d45ca449b7493")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultipleLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultipleLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

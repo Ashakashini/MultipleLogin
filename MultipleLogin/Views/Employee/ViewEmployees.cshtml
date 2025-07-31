@@ -60,7 +60,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var emp in Model)
+                  @if(Model!=null)
+                  {
+                  
+                    foreach (var emp in Model)
                     {
                         <tr class="fade-in">
                             <td>@emp.Id</td>
@@ -72,6 +75,7 @@
                             </td>
                         </tr>
                     }
+                  }
                 </tbody>
             </table>
         </div>

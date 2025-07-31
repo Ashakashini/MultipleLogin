@@ -55,17 +55,17 @@ namespace MultipleLogin.DAL
         
         public IFormFile Avathar { get; set; }  
 
-        public string AvatarFileName { get; set; }
+        public string? AvatarPath { get; set; }
 
         [NotMapped]
         public IFormFile Resume { get; set; }
 
-        public string ResumeFileName { get; set; }
+        public string? ResumePath { get; set; }
 
         [NotMapped] 
         public IFormFile EducationalCertificate { get; set; }
 
-        public string EducationalCertificateFileName { get; set; }
+        public string? EducationalCertificatePath { get; set; }
 
         [Required]
         public string Experience { get; set; }
@@ -73,7 +73,7 @@ namespace MultipleLogin.DAL
         [NotMapped] 
         public IFormFile IDProof { get; set; }
 
-        public string IDProofFileName { get; set; } 
+        public string? IDProofPath { get; set; } 
 
         [Required]
         public string YearofPassout { get; set; }

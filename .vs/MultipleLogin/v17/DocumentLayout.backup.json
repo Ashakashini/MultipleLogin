@@ -3,80 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\views\\employee\\employeeregisterfinal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\views\\employee\\employeeregisterfinal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\controllers\\employee1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\controllers\\employee1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\views\\employee\\employeeregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\views\\employee\\employeeregistration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin.dal\\employeeregisterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|solutionrelative:multiplelogin.dal\\employeeregisterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Leavemanagement/True/SqlTable/dbo.Employees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin.dal\\entitymultiplelogindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|solutionrelative:multiplelogin.dal\\entitymultiplelogindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\views\\employee\\viewemployees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\views\\employee\\viewemployees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\views\\employee\\employeeregisteration3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\views\\employee\\employeeregisteration3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\views\\employee\\employeeregisteration2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\views\\employee\\employeeregisteration2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin.dal\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|solutionrelative:multiplelogin.dal\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\views\\employee\\leaveapply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\views\\employee\\leaveapply.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\multiplelogin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\multiplelogin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin.dal\\multiplelogin.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|solutionrelative:multiplelogin.dal\\multiplelogin.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin.dal\\leaveapplymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|solutionrelative:multiplelogin.dal\\leaveapplymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin.dal\\hrregisterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F762CF8B-EA8F-4A11-8013-AEF6B947D2C8}|MultipleLogin.DAL\\MultipleLogin.DAL.csproj|solutionrelative:multiplelogin.dal\\hrregisterationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|c:\\users\\asha\\source\\repos\\multiplelogin\\multiplelogin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E39623F4-231B-433B-B5CE-144A98F3204B}|MultipleLogin\\MultipleLogin.csproj|solutionrelative:multiplelogin\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -88,6 +35,81 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRegisterationModel.cs",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
+              "RelativeDocumentMoniker": "MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
+              "RelativeToolTip": "MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
+              "ViewState": "AgIAAEUAAAAAwJ254YsVwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T10:05:10.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Employees [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Leavemanagement/True/SqlTable/dbo.Employees.sql",
+              "ToolTip": "dbo.Employees [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-31T10:04:01.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntityMultipleLoginDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
+              "RelativeDocumentMoniker": "MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
+              "RelativeToolTip": "MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T10:03:39.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T09:50:59.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ViewEmployees.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T09:50:09.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MultipleLogin\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "MultipleLogin\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAuwE4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:49:36.104Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -109,239 +131,12 @@
               "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeRegisterFinal.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegisterFinal.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\EmployeeRegisterFinal.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegisterFinal.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\EmployeeRegisterFinal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-30T06:51:40.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "MultipleLogin\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "MultipleLogin\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-30T05:22:20.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF0AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-30T04:46:37.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employee1Controller.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\Employee1Controller.cs",
-              "RelativeDocumentMoniker": "MultipleLogin\\Controllers\\Employee1Controller.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\Employee1Controller.cs",
-              "RelativeToolTip": "MultipleLogin\\Controllers\\Employee1Controller.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T04:43:15.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeRegistration.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegistration.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\EmployeeRegistration.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegistration.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\EmployeeRegistration.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAJwAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-30T04:38:58.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeRegisteration3.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegisteration3.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\EmployeeRegisteration3.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegisteration3.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\EmployeeRegisteration3.cshtml",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAkwKcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T05:59:54.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeRegisteration2.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegisteration2.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\EmployeeRegisteration2.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\EmployeeRegisteration2.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\EmployeeRegisteration2.cshtml",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAkwIcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T05:59:23.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MultipleLogin.csproj",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\MultipleLogin.csproj",
-              "RelativeDocumentMoniker": "MultipleLogin\\MultipleLogin.csproj",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\MultipleLogin.csproj",
-              "RelativeToolTip": "MultipleLogin\\MultipleLogin.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-29T04:37:56.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MultipleLogin.DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
-              "RelativeDocumentMoniker": "MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
-              "RelativeToolTip": "MultipleLogin.DAL\\MultipleLogin.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-29T04:32:00.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "MultipleLogin\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "MultipleLogin\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAANoAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T09:43:11.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LeaveApply.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\LeaveApply.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\LeaveApply.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\LeaveApply.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\LeaveApply.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-21T08:26:33.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeRegisterationModel.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
-              "RelativeDocumentMoniker": "MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
-              "RelativeToolTip": "MultipleLogin.DAL\\EmployeeRegisterationModel.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T07:37:14.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EntityMultipleLoginDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
-              "RelativeDocumentMoniker": "MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
-              "RelativeToolTip": "MultipleLogin.DAL\\EntityMultipleLoginDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T07:37:07.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\LoginModel.cs",
-              "RelativeDocumentMoniker": "MultipleLogin.DAL\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\LoginModel.cs",
-              "RelativeToolTip": "MultipleLogin.DAL\\LoginModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T07:36:49.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HrRegisterationModel.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\HrRegisterationModel.cs",
-              "RelativeDocumentMoniker": "MultipleLogin.DAL\\HrRegisterationModel.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\HrRegisterationModel.cs",
-              "RelativeToolTip": "MultipleLogin.DAL\\HrRegisterationModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T07:36:43.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LeaveApplyModel.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\LeaveApplyModel.cs",
-              "RelativeDocumentMoniker": "MultipleLogin.DAL\\LeaveApplyModel.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin.DAL\\LeaveApplyModel.cs",
-              "RelativeToolTip": "MultipleLogin.DAL\\LeaveApplyModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T07:36:35.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MultipleLogin\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MultipleLogin\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-21T07:34:43.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "MultipleLogin\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\appsettings.Development.json",
-              "RelativeToolTip": "MultipleLogin\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-21T07:34:29.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Program.cs",
-              "RelativeDocumentMoniker": "MultipleLogin\\Program.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Program.cs",
-              "RelativeToolTip": "MultipleLogin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T06:53:38.262Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

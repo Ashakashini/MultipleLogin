@@ -11,7 +11,7 @@ namespace MultipleLogin.Controllers
         }
         public IActionResult HrRegisteration()
         {
-            return View();
+             return View();
         }
 
         [HttpPost]

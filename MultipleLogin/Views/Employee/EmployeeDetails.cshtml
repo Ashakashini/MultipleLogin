@@ -1,0 +1,76 @@
+﻿@model MultipleLogin.DAL.EmployeeRegisterationModel
+
+@{
+    ViewData["Title"] = "Employee Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="card shadow-lg rounded-4 p-4 border-0 glass-card">
+        <h2 class="text-center text-primary fw-bold mb-4">
+            👤 Employee Profile
+        </h2>
+
+        <div class="row g-4 align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="@Url.Content("~/" + Model.Avathar)" alt="Avatar" class="img-fluid rounded-circle shadow" style="width:150px; height:150px; object-fit:cover;" />
+
+                <h4 class="mt-3 fw-semibold">@($"{Model.FirstName} {Model.LastName}")</h4>
+                <p class="text-muted">@Model.Department</p>
+            </div>
+
+            <div class="col-md-8">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <strong><i class="fa fa-envelope me-2 text-primary"></i>Email:</strong>
+                            <div>@Model.Email</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <strong><i class="fa fa-phone me-2 text-primary"></i>Phone:</strong>
+                            <div>@Model.Phone</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <strong><i class="fa fa-map-marker-alt me-2 text-primary"></i>Address:</strong>
+                            <div>@Model.Address</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <strong><i class="fa fa-city me-2 text-primary"></i>City:</strong>
+                            <div>@Model.City</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <strong><i class="fa fa-flag me-2 text-primary"></i>State:</strong>
+                            <div>@Model.State</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <strong><i class="fa fa-globe me-2 text-primary"></i>Country:</strong>
+                            <div>@Model.Country</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-light rounded-3 p-3 h-100">
+                            <strong><i class="fa fa-mail-bulk me-2 text-primary"></i>Postal Code:</strong>
+                            <div>@Model.PostalCode</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-end">
+                    <a asp-action="ViewEmployees" class="btn btn-outline-primary">
+                        <i class="fa fa-arrow-left me-2"></i>Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

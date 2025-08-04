@@ -22,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-31T09:50:59.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViewEmployees.cshtml",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
-              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
-              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwEcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-31T09:50:09.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "MultipleLogin\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs*",
-              "RelativeToolTip": "MultipleLogin\\Controllers\\EmployeeController.cs*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwC0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T09:49:36.104Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -84,12 +45,45 @@
               "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "MultipleLogin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T09:50:59.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewEmployees.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "RelativeDocumentMoniker": "MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "RelativeToolTip": "MultipleLogin\\Views\\Employee\\ViewEmployees.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T09:50:09.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MultipleLogin\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Asha\\source\\repos\\MultipleLogin\\MultipleLogin\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "MultipleLogin\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAuwCQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:49:36.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
